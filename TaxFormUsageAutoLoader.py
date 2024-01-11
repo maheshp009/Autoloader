@@ -150,4 +150,44 @@ except Exception as ee:
     print("================")
     print(ee)
     print("exception::")
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[Paths]
+json_file_path = /Volumes/taa_us_taxform_dev/taxformsource/taxformconfiguration/schema_tax_form.json
+source_path = /Volumes/taa_us_taxform_dev/taxformsource/taxformautoloadercheckpoint/test
+checkpoint_path = /Volumes/taa_us_taxform_dev/taxformsource/taxformautoloadercheckpoint/taxformscheckpointF
+
+[Table]
+table_name = 
+error_table = 
+auditlogs_table = 
+[Varibles]
+#Autoloader Varibles
+
+jobstatus_inprogress = inprogress
+jobstatus_failed = failed
+jobstatus_success = success
+
+#TaxFormUsageMerge
+Merge_ObjectName = formusagefact
+Merge_ProcessName = TaxFormUsageRawToSilver
+auditlogstable = 
+errorjob_status = failed
+silvertable = 
+temptable = 
+
+
+
